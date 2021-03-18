@@ -1,0 +1,97 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="TBS.css">
+    <script src="TBS.js"></script>
+    <title>CSBS</title>
+</head>
+<body>
+    <header>
+        <div class="welcome_div sansserif">
+            <h1 style="text-align: center">Welcome to the Tour Booking System</h1>
+            <p></p>
+        </div>  
+    </header>
+    <main>
+        <div class="container">
+            <form action="#" onsubmit="return false">
+             <div class="row">
+                 <div class="col-25">
+                     <label for="name">Name</label>
+                 </div>
+                 <div class="col-75">
+                    <input type="text" name="name" id="name" placeholder="Enter Name">
+                 </div>
+             </div>
+             <div class="row">
+                <div class="col-25">
+                    <label for="tourCode">Tour Code</label>
+                </div>
+                <div class="col-75">
+                   <input type="text" name="tourCode" id="tourCode" placeholder="Tour Code">
+                </div>
+            </div> 
+            <div class="row">
+                <div class="col-25">
+                    <label for="lunchCode">Lunch Code</label>
+                </div>
+                <div class="col-75">
+                   <input type="text" name="lunchCode" id="lunchCode" placeholder="Lunch Code">
+                </div>
+            </div> 
+            <div class="row">
+                <div class="col-25">
+                    <label for="noOfGuest">Number of Guests</label>
+                </div>
+                <div class="col-75">
+                   <input type="text" name="noOfGuest" id="noOfGuest" min=0 placeholder="Number of Guests">
+                </div>
+            </div> 
+            <div class="row">
+                <div class="col-25">
+                    <label for="agentId">Agent ID</label>
+                </div>
+                <div class="col-75">
+                   <input type="text" name="agentId" id="agentId" placeholder="Agent ID">
+                </div>
+            </div>
+            <br>
+           <hr>
+            <div class="row">
+                <div class="col-25">
+                    
+                </div>
+                <div class="col-75  buttons">
+                   <input type="submit" onclick=" displayTourOptions()" value="Tour-Option">
+                   <input type="submit" onclick="displayLunchOptions()" value="Lunch-Option">
+                   <input type="submit" onclick="validateAndCal()" value="Submit">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                  <label for="price">Price</label>
+                </div>
+                <div class="col-75">
+                    <p id="price" name="price"></p>   
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="data">Show Data</label>
+                </div>
+                <div class="col-75">
+                    <p id="data" name="data"></p>
+                </div>
+              </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="footer_div sansserif">
+            <p >Copyright &copy; 2020 All Rights Reserved by Mario Stavreski.
+           </p>
+        </div>  
+    </footer>
+</body>
+</html>

@@ -1,0 +1,13 @@
+.flex-container {
+  width: 50%;
+  display: flex;
+  -webkit-flex-direction: column; /_ Safari _/
+  flex-direction: column;
+  background-color: red;
+  display: -webkit-flex; /_ Safari _/
+}
+
+.flex-item {
+  background-color: royalblue;
+  margin: 10px;
+}

@@ -1,0 +1,39 @@
+#body {
+  background-color: tan ;
+  margin: 20px;
+}
+#header {
+  background-color: royalblue;
+}
+
+#article {
+  display: flex;
+  display: -webkit-flex; /_ Safari _/;
+  background-color: grey;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+#footer {
+  background-color: royalblue;
+}
+
+#dog {
+  background-color: lightskyblue;
+  padding: 20px;
+}
+
+#cat {
+  background-color: lightgrey;
+  padding: 20px;
+}
+
+#goldfish {
+  background-color: gold;
+  padding: 20px;
+}
+
+#parrot {
+  background-color: seagreen  ;
+  padding: 20px;
+}

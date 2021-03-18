@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="description" content="dynamic HTML" />
+  <meta name="keywords"    content="Think which keywords!!!" />
+  <meta name="author"      content="Tanya Linden" />
+  <title>Testing output</title>
+</head>
+<body>
+<header>
+</header>
+<article>
+
+	<p id="seatingArea"></p>
+	<p id="pricePerTicket"></p>
+	<p id="ticketQty"></p>
+	<p id="amountDue"></p>
+
+</article>
+<footer><p>Produced by Mario Stavreski</p></footer>  
+</body>
+</html>
